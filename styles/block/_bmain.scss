@@ -1,0 +1,54 @@
+.videos{
+    width: 100%;
+    margin: 0 auto;
+
+    .videos__main{
+        width: 90%;
+        margin: 30px auto;
+        h2{
+            font-size: 21px;
+            font-weight: bold;
+            letter-spacing: -0.4px;
+        }
+
+        p {
+            font-weight: 400;
+            line-height: 1.44;
+            letter-spacing: -0.4px;
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+        }
+
+        iframe{
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        a {
+            color: $blue-color;
+            line-height: 1.44;
+            letter-spacing: -0.8;
+            font-size: 1.125rem;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: 400;
+            text-decoration: none;
+            
+        }
+    
+        .videos__main__text{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0 auto;
+            h3{
+                font-weight: bold;
+                font-size: 0.85rem;
+            }
+            h4{
+                font-weight: 400;
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
