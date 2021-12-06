@@ -1,16 +1,15 @@
-.videos{
+.videos {
     width: 100%;
     margin: 0 auto;
 
-    .videos__main{
+    .videos__main {
         width: 90%;
         margin: 30px auto;
-        h2{
+        h2 {
             font-size: 21px;
             font-weight: bold;
             letter-spacing: -0.4px;
         }
-
         p {
             font-weight: 400;
             line-height: 1.44;
@@ -18,12 +17,12 @@
             font-size: 1.05rem;
             margin-bottom: 20px;
         }
-
-        iframe{
+       
+        iframe {
+            width: 100%;
             margin: 0 auto;
-            border-radius: 10px;
+            border-radius: 6px;
         }
-
         a {
             color: $blue-color;
             line-height: 1.44;
@@ -33,22 +32,68 @@
             margin-bottom: 20px;
             font-weight: 400;
             text-decoration: none;
-            
-        }
-    
-        .videos__main__text{
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            margin: 0 auto;
-            h3{
-                font-weight: bold;
-                font-size: 0.85rem;
-            }
-            h4{
-                font-weight: 400;
-                font-size: 0.75rem;
-            }
         }
     }
+
+
+    .videos__main__img {
+        position: relative;
+        width: 100%;
+        img {
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 6px;
+            height: auto;
+        }
+        button {
+        display: block;
+        width: 0%;
+        bottom: 40px;
+        position: flex;
+        transform: translate(300%, -120%);
+        background-color:$turquoise-color;
+        color: $white-color;
+        font-size: 16px;
+        padding: 20px 47px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    
+        text-align: center;
+        text-decoration: none;
+        transition-duration: 0.5s;
+        }
+        button:hover {
+        background-color:$blue-color;
+        transition-duration: 0.3s;
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .videos__main__text {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        h3 {
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+        h4 {
+            font-weight: 400;
+            font-size: 0.75rem;
+        }
+    } 
 }
+
