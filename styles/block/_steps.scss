@@ -1,0 +1,48 @@
+.steps {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    flex-direction: column;
+    background-color:$beige-color;
+    h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.8rem;
+        letter-spacing: -1.5px;
+    }
+    .steps__container {
+        padding: 20px;
+        h1 {
+            font-size: 20px;
+            padding: 10px 15px;
+            border-radius: 6px;
+            display: inline-block;
+            background-color: $purple-color;
+            color: $white-color;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 0.5px; 
+        }
+        p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.4rem;
+            letter-spacing: 0.5px; 
+            line-height: 1.4rem;
+            a {    
+                color: $blue-color;
+                text-decoration: underline;    
+            }
+            a:hover{
+                border-bottom: 1px solid;
+            }
+        }
+        h3 {
+            margin-left: 20px;
+            margin-bottom: 50px;
+            line-height: 1.5rem;
+        } 
+    }
+}

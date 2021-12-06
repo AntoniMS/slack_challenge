@@ -1,0 +1,32 @@
+.info {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    flex-direction: column;
+    background-color:$beige-color;
+    
+    .info__container {
+        background-color:$whitesmoke-color;
+        margin: 10px;
+        padding: 25px;
+        img {
+            width: 100%;
+        }
+        p {
+            color: $grey-color;
+            padding-top: 8px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            line-height: 1.4rem;
+            letter-spacing: -0.2px; 
+            line-height: 1.4rem;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 0.5px; 
+        }
+    }
+
+}
+
