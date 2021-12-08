@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <header class="b-header">
+    <header class="header__container">
       <nav class="navbar">
         <ul class="navbar__menu">
           <li class="navbar__element">
@@ -40,8 +40,8 @@
         <div class="principal__view">
           <h1>Slack se encuentra donde trabaja el futuro</h1>
           <p>Transforma tu manera de trabajar con un único lugar para todo el mundo y todo lo que necesitas para hacer las cosas.</p>
-          <form class="principal__view method="get" action="https://slack.com/intl/es-es/get-started#/createnew">
-              <button class="button_free">consigue slack para iPhone</button>
+          <form class="principal__view" method="get" action="https://slack.com/intl/es-es/downloads/android#/createnew">
+              <button class="button__free">consigue slack para android</button>
           </form>
         </div>
         <div class="principal__view">
@@ -87,7 +87,6 @@
         </div>
       </div>
     </header>
-
     <div class="videos">
       <div class="videos__main">
         <h2>Muévete más rápido organizando tu vida laboral</h2>
@@ -96,7 +95,7 @@
         <div class="videos__main__img">
           <img src="./assets/images/tip1.jpg" alt="Imagen ¿Qué es un canal?">
           <form action="https://www.youtube.com/embed/emIyB6PucRo">
-            <button type="submit">▶</button>
+            <button class="button__vid" type="submit">▶</button>
           </form>
         </div>  
         <div class="videos__main__text">
@@ -106,7 +105,7 @@
         <div class="videos__main__img">
           <img src="./assets/images/tip2.jpg" alt="Imagen Crea un canal">
           <form action="https://www.youtube.com/embed/29YjlDwezC4"</form>
-            <button type="submit">▶</button>
+            <button class="button__vid" type="submit">▶</button>
           </form>
         </div>
         <div class="videos__main__text">
@@ -121,7 +120,7 @@
         <div class="videos__main__img">
           <img src="./assets/images/tip3.jpg" alt="Imagen Pausa las notificaciones">
           <form action="https://www.youtube.com/embed/IQPWIzIAPn8"</form>
-            <button type="submit">▶</button>
+            <button class="button__vid" type="submit">▶</button>
           </form>
         </div>
         <div class="videos__main__text">
@@ -135,8 +134,8 @@
         <a href="https://slack.com/intl/es-es/connect">Descubrir cómo trabajar con socios externos en Slack →</a>  
         <div class="videos__main__img">
           <img src="./assets/images/tip4.jpg" alt="Imagen Añade socios">
-          <form action=https://www.youtube.com/embed/fG2on3sugD0</form>
-            <button type="submit">▶</button>
+          <form action="https://www.youtube.com/embed/fG2on3sugD0"</form>
+            <button class="button__vid" type="submit">▶</button>
           </form>
         </div>
         <div class="videos__main__text">
@@ -145,8 +144,8 @@
         </div> 
         <div class="videos__main__img">
           <img src="./assets/images/tip5.jpg" alt="Imagen Compartir ideas">
-          <form action=https://www.youtube.com/embed/FDqv-Tme8Ek</form>
-            <button type="submit">▶</button>
+          <form action="https://www.youtube.com/embed/FDqv-Tme8Ek"</form>
+            <button class="button__vid" type="submit">▶</button>
           </form>
         </div>
         <div class="videos__main__text">
@@ -156,58 +155,127 @@
       </div>
     </div>
     <div class="steps">
-      <h1>Primeros pasos en Slack</h1>
-      <div class="steps__container">
-        <h1>1</h1>
-        <h2>Regístrate</h2>
-        <p>
-          <a href="https://slack.com/intl/es-es/get-started">Crea un nuevo espacio de trabajo de Slack </a>en unos instantes. Todos los equipos, sean del tamaño que sean, pueden probarlo de forma gratuita.
-        </p>
+      <h1 class>Primeros pasos en Slack</h1>
+       <div class="steps__box">
+        <div class="steps__container">
+          <h1>1</h1>
+          <h2>Regístrate</h2>
+          <p>
+            <a href="https://slack.com/intl/es-es/get-started">Crea un nuevo espacio de trabajo de Slack </a>en unos instantes. Todos los equipos, sean del tamaño que sean, pueden probarlo de forma gratuita.
+          </p>
+        </div>
+        <div class="steps__container">
+          <h1>2</h1>
+          <h2>Invita a tus compañeros de trabajo</h2>
+          <p>Slack es mejor en compañía (no, en serio, resulta un poco decepcionante si se utiliza en solitario) y es muy fácil invitar a tu equipo.</p>
+        </div>
+        <div class="steps__container">
+          <h1>3</h1>
+          <h2>Pruébalo</h2>
+          <p>Dirige un proyecto, coordínate con tu equipo o simplemente habla de ello. Slack es un lienzo en blanco para el trabajo en equipo.</p>
+        </div>
       </div>
-      <div class="steps__container">
-        <h1>2</h1>
-        <h2>Invita a tus compañeros de trabajo</h2>
-        <p>Slack es mejor en compañía (no, en serio, resulta un poco decepcionante si se utiliza en solitario) y es muy fácil invitar a tu equipo.</p>
-      </div>
-      <div class="steps__container">
-        <h1>3</h1>
-        <h2>Pruébalo</h2>
-        <p>Dirige un proyecto, coordínate con tu equipo o simplemente habla de ello. Slack es un lienzo en blanco para el trabajo en equipo.</p>
+    </div> 
+    <div class="promo">
+        <div class="promo__frame">
+          <img src="./assets/images/promo1.jpg" alt="Imagen de funciones">
+          <p>Funciones</p>
+          <h2>Echa un vistazo a todo lo que puede hacer la plataforma</h2>
+          <a href="https://slack.com/intl/es-es/features?utm_source=hppromo&utm_medium=promo">Examina las funciones
+            →</a>
+        </div>
+        <div class="promo__frame">
+          <img src="./assets/images/promo2.jpg" alt="Imagen de clientes">
+          <p>Casos de clientes</p>
+          <h2>Busca la inspiración en los clientes reales de Slack</h2>
+          <a href="https://slack.com/intl/es-es/features?utm_source=hppromo&utm_medium=promo">Lee las historias
+            →</a>
+        </div>
+        <div class="promo__frame">
+          <img src="./assets/images/promo3.jpg" alt="Imagen de soluciones">
+          <p>Soluciones</p>
+          <h2>Descubre todo lo que puede hacer Slack por tu equipo</h2>
+          <a href="https://slack.com/intl/es-es/features?utm_source=hppromo&utm_medium=promo">Explora soluciones
+            →</a>
+        </div>
+        <div class="promo__frame">
+          <img src="./assets/images/promo4.jpg" alt="Imagen de Cómo">
+          <p>Cómo</p>
+          <h2>Empieza con buen pie con la introducción a Slack</h2>
+          <a href="https://slack.com/intl/es-es/features?utm_source=hppromo&utm_medium=promo">Descubre cómo hacerlo
+            →</a>
+        </div>
       </div>
     </div>
-
-    <div class="info">
-      <div class="info__container">
-        <img src="./assets/images/promo1.jpg" alt="Imagen de Funciones">
-        <p>Funciones</p>
-        <h2>Echa un vistazo a todo lo que puede hacer la plataforma</h2>
-        <a href="https://slack.com/intl/es-es/features?utm_source=hppromo&utm_medium=promo">Examina las funciones <h1>→</h1></a>
-
-
+    <footer class="footer">
+      <div class="footer__view">
+          <h1>Bienvenido al lugar donde trabaja el futuro</h1>
+          <form class="footer__view" method="get" action="https://slack.com/intl/es-es/downloads/ios">
+            <button class="footer__btn">Pruébalo gratis</button>
+        </form>
+        <form class="footer__view" method="get" action="https://slack.com/intl/es-es/contact-sales?geocode=es-es&from_home=1">
+          <button class="footer__btn--tr">Hablar con el equipo de ventas</button>
+        </form>
       </div>
 
-
-
-
-
-
-
-    </div>
-
-
-
-    
-
-    </div>
-
-
-     
-    
-  
-  
-  
-  
+      <div class="footer__container">
+        <img src="./assets/icons/slackicon.png" alt="Imagen logo Slack">
+        <div class="footer__nav">
+          <h3>¿por qué slack?</h3>
+          <h3>producto</h3>
+          <h3>precios</h3>
+          <h3>recursos</h3>
+          <h3>empresa</h3>
+        </div>
+          <ul class="footer__list">
+              <li class="footer__item">
+                  <a href="https://status.slack.com/">Estado</a>
+              </li>
+              <li class="footer__item">
+                <a href="https://slack.com/intl/es-es/trust/privacy/privacy-policy">Privacidad</a>
+              </li>
+              <li class="footer__item">
+                <a href="https://slack.com/intl/es-es/legal" >Términos</a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Preferencias de cookies</a>
+              </li>
+              <li class="footer__item">
+                <a href="https://slack.com/intl/es-es/help/requests/new?geocode=es-es">Contáctanos</a>
+              </li>
+              <li class="footer__item">
+                <a href="#">Cambiar región</a>
+              </li>
+              <li class="footer__item">
+                <a class= a__download href="https://slack.com/intl/es-es/downloads/ios">☁️ Descargar Slack</a>
+              </li>
+          </ul>
+          </div>
+          <div class="footer__menu">
+              <ul class="footer__contant">
+                  <li class="footer__contact__item">
+                    <a href="https://www.twitter.com/">
+                      <img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-6.png" alt="Imagen Twitter">
+                    </a>
+                  </li>
+                  <li class="footer__contact__item">
+                    <a href="https://www.facebook.com/">
+                      <img src="http://faldin.com/wp-content/uploads/2018/01/logo-facebook.png" alt="Imagen Facebook">
+                    </a>
+                  </li>
+                  <li class="footer__contact__item">
+                    <a href="https://www.youtube.com/">
+                      <img src="https://1000marcas.net/wp-content/uploads/2020/02/YouTube-s%C3%ADmbolo.jpg" alt="Imagen Youtube">
+                    </a>
+                  </li>
+                  <li class="footer__contact__item">
+                    <a href="https://es.linkedin.com/">
+                      <img  src="https://mekes.com/app/uploads/2020/12/linkedin-logo.png" alt="Imagen Linkedin">
+                    </a>
+                  </li>
+            </ul>      
+      </div>
+      <p>©2021 Slack Technologies, LLC, una empresa de Salesforce. Todos los derechos reservados. Las distintas marcas comerciales pertenecen a sus respectivos propietarios.</p>
+    </footer> 
   </body>
-
-
- </html>
+  </html>

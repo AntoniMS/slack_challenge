@@ -1,15 +1,14 @@
-.b-header {
+.header__container {
   width: 100%;
   background-color:$beige-color;
     .navbar__menu {
       width: 100%;
-      position:-webkit-sticky;
+      position:relative;
       display: flex;
       justify-content: space-between;
       align-items: center;
       list-style-type: none;
-      background-color: $whitesmoke-color;
-      z-index: 1;
+      background-color: $beige-color;
     }
     .navbar__element {
       padding: 7px;
@@ -36,6 +35,7 @@
       flex-direction: row;
       width: 100%;
       display: flex;
+      padding: 0px 100px 0px 100px;
     }
       .principal__view {
         flex-wrap: wrap;
@@ -44,7 +44,7 @@
         @include desktop {
           width: 100%;
           align-content: center;
-          padding: 0px 6% 0px 6%;
+          padding: 0px 5% 0px 5%;
         }
         h1 {
           font-weight: 700;
@@ -55,7 +55,7 @@
           line-height: 1.5;
           letter-spacing: -0.4px;
           margin-top: 0px;
-          font-size: 16px;
+          font-size: 17px;
           margin-bottom: 1rem;
         }
         img {
@@ -63,8 +63,7 @@
         }
       }
   }
-
-   .button_free {
+   .button__free {
     border: none;
     cursor: pointer;
     border-radius: 4px;
@@ -91,10 +90,16 @@
   .logos {
     width: 100%;
     margin-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 30px;
+    @include desktop {
+      width: 100%;
+     padding-left: 9%;
+     padding-right: 9%;
+      ;
+    }
   }
   .logos__item {
     margin: 10px;

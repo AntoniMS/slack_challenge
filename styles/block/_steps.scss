@@ -10,7 +10,16 @@
         font-size: 1.7rem;
         letter-spacing: -1.5px;
     }
-    .steps__container {
+    .steps__box {
+        @include desktop {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            align-content:space-between;
+            padding:30px;
+          }
+    }
+    .steps__container { 
         padding: 20px;
         h1 {
             font-size: 20px;
